@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		2F13F8C114F5227F006420A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F13F8C014F5227F006420A8 /* Foundation.framework */; };
-		2F13F8C714F5227F006420A8 /* Hippo_iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F13F8C614F5227F006420A8 /* Hippo_iOS.m */; };
 		2F13F8CF14F5227F006420A8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F13F8CE14F5227F006420A8 /* SenTestingKit.framework */; };
 		2F13F8D114F5227F006420A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F13F8D014F5227F006420A8 /* UIKit.framework */; };
 		2F13F8D214F5227F006420A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F13F8C014F5227F006420A8 /* Foundation.framework */; };
 		2F13F8D514F5227F006420A8 /* libHippo_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F13F8BD14F5227F006420A8 /* libHippo_iOS.a */; };
 		2F13F8DB14F5227F006420A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F13F8D914F5227F006420A8 /* InfoPlist.strings */; };
 		2F13F8DE14F5227F006420A8 /* Hippo_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F13F8DD14F5227F006420A8 /* Hippo_iOSTests.m */; };
+		2F13F8E814F52412006420A8 /* Hippo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F13F8E714F52412006420A8 /* Hippo.h */; };
+		2F13F8EF14F52419006420A8 /* HPData.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F13F8EA14F52419006420A8 /* HPData.h */; };
+		2F13F8F014F52419006420A8 /* HPNumberData.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F13F8EB14F52419006420A8 /* HPNumberData.h */; };
+		2F13F8F114F52419006420A8 /* HPNumberData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F13F8EC14F52419006420A8 /* HPNumberData.m */; };
+		2F13F8F214F52419006420A8 /* HPStringData.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F13F8ED14F52419006420A8 /* HPStringData.h */; };
+		2F13F8F314F52419006420A8 /* HPStringData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F13F8EE14F52419006420A8 /* HPStringData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,8 +36,6 @@
 		2F13F8BD14F5227F006420A8 /* libHippo_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHippo_iOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F13F8C014F5227F006420A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2F13F8C414F5227F006420A8 /* Hippo_iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hippo_iOS-Prefix.pch"; sourceTree = "<group>"; };
-		2F13F8C514F5227F006420A8 /* Hippo_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hippo_iOS.h; sourceTree = "<group>"; };
-		2F13F8C614F5227F006420A8 /* Hippo_iOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hippo_iOS.m; sourceTree = "<group>"; };
 		2F13F8CD14F5227F006420A8 /* Hippo_iOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hippo_iOSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F13F8CE14F5227F006420A8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		2F13F8D014F5227F006420A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -40,6 +43,12 @@
 		2F13F8DA14F5227F006420A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2F13F8DC14F5227F006420A8 /* Hippo_iOSTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hippo_iOSTests.h; sourceTree = "<group>"; };
 		2F13F8DD14F5227F006420A8 /* Hippo_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hippo_iOSTests.m; sourceTree = "<group>"; };
+		2F13F8E714F52412006420A8 /* Hippo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hippo.h; sourceTree = "<group>"; };
+		2F13F8EA14F52419006420A8 /* HPData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPData.h; sourceTree = "<group>"; };
+		2F13F8EB14F52419006420A8 /* HPNumberData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPNumberData.h; sourceTree = "<group>"; };
+		2F13F8EC14F52419006420A8 /* HPNumberData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPNumberData.m; sourceTree = "<group>"; };
+		2F13F8ED14F52419006420A8 /* HPStringData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPStringData.h; sourceTree = "<group>"; };
+		2F13F8EE14F52419006420A8 /* HPStringData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPStringData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +106,8 @@
 		2F13F8C214F5227F006420A8 /* Hippo_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				2F13F8C514F5227F006420A8 /* Hippo_iOS.h */,
-				2F13F8C614F5227F006420A8 /* Hippo_iOS.m */,
+				2F13F8E714F52412006420A8 /* Hippo.h */,
+				2F13F8E914F52419006420A8 /* DTO */,
 				2F13F8C314F5227F006420A8 /* Supporting Files */,
 			);
 			path = Hippo_iOS;
@@ -131,6 +140,18 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2F13F8E914F52419006420A8 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				2F13F8EA14F52419006420A8 /* HPData.h */,
+				2F13F8EB14F52419006420A8 /* HPNumberData.h */,
+				2F13F8EC14F52419006420A8 /* HPNumberData.m */,
+				2F13F8ED14F52419006420A8 /* HPStringData.h */,
+				2F13F8EE14F52419006420A8 /* HPStringData.m */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -138,6 +159,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F13F8E814F52412006420A8 /* Hippo.h in Headers */,
+				2F13F8EF14F52419006420A8 /* HPData.h in Headers */,
+				2F13F8F014F52419006420A8 /* HPNumberData.h in Headers */,
+				2F13F8F214F52419006420A8 /* HPStringData.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F13F8C714F5227F006420A8 /* Hippo_iOS.m in Sources */,
+				2F13F8F114F52419006420A8 /* HPNumberData.m in Sources */,
+				2F13F8F314F52419006420A8 /* HPStringData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
