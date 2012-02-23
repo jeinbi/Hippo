@@ -12,6 +12,7 @@
  */
 
 #import <Foundation/Foundation.h>
+#import "HPData.h"
 
 
 /**
@@ -19,7 +20,7 @@
  *
  * @since 1.0.0
  */
-@interface HPBooleanData : NSObject
+@interface HPBooleanData : NSObject <HPData>
 
 /**
  * The data for boolean
@@ -28,17 +29,17 @@
 
 
 /**
- * Initialize a object
+ * Initialize an object.
  *
- * @return object
+ * @return An object.
  */
 - (id)init;
 
 /**
- * initialize a object with a given value as BOOL
+ * initialize an object with a given value as BOOL.
  *
- * @param[in] data The value for boolean
- * @return object
+ * @param[in] data The value for boolean.
+ * @return An object
  */
 - (id)initWithBooleanData:(BOOL)data;
 

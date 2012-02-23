@@ -23,23 +23,23 @@
 @interface HPStringData : NSObject <HPData>
 
 /**
- * The data for string
+ * The data for string.
  */
 @property (nonatomic, strong) NSString *stringData;
 
 
 /**
- * Initialize a object
+ * Initialize an object.
  *
- * @return object
+ * @return An object.
  */
 - (id)init;
 
 /**
- * initialize a object with a given value as NSString
+ * initialize an object with a given value as NSString.
  *
- * @param[in] data The value for string
- * @return object
+ * @param[in] data The value for string.
+ * @return An object.
  */
 - (id)initWithStringData:(NSString *)data;
 

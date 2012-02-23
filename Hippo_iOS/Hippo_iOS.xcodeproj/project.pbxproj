@@ -22,6 +22,8 @@
 		2F13F8F114F52419006420A8 /* HPNumberData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F13F8EC14F52419006420A8 /* HPNumberData.m */; };
 		2F13F8F214F52419006420A8 /* HPStringData.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F13F8ED14F52419006420A8 /* HPStringData.h */; };
 		2F13F8F314F52419006420A8 /* HPStringData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F13F8EE14F52419006420A8 /* HPStringData.m */; };
+		2F2CC2C314F607A10036ADD2 /* HPArrayData.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2CC2C114F607A10036ADD2 /* HPArrayData.h */; };
+		2F2CC2C414F607A10036ADD2 /* HPArrayData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2CC2C214F607A10036ADD2 /* HPArrayData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		2F13F8EC14F52419006420A8 /* HPNumberData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPNumberData.m; sourceTree = "<group>"; };
 		2F13F8ED14F52419006420A8 /* HPStringData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPStringData.h; sourceTree = "<group>"; };
 		2F13F8EE14F52419006420A8 /* HPStringData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPStringData.m; sourceTree = "<group>"; };
+		2F2CC2C114F607A10036ADD2 /* HPArrayData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPArrayData.h; sourceTree = "<group>"; };
+		2F2CC2C214F607A10036ADD2 /* HPArrayData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPArrayData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +158,8 @@
 				2F13F8EC14F52419006420A8 /* HPNumberData.m */,
 				2F11CFA914F5FF4D00E6D941 /* HPBooleanData.h */,
 				2F11CFAA14F5FF4D00E6D941 /* HPBooleanData.m */,
+				2F2CC2C114F607A10036ADD2 /* HPArrayData.h */,
+				2F2CC2C214F607A10036ADD2 /* HPArrayData.m */,
 			);
 			path = DTO;
 			sourceTree = "<group>";
@@ -170,6 +176,7 @@
 				2F13F8F014F52419006420A8 /* HPNumberData.h in Headers */,
 				2F13F8F214F52419006420A8 /* HPStringData.h in Headers */,
 				2F11CFAB14F5FF4D00E6D941 /* HPBooleanData.h in Headers */,
+				2F2CC2C314F607A10036ADD2 /* HPArrayData.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +280,7 @@
 				2F13F8F114F52419006420A8 /* HPNumberData.m in Sources */,
 				2F13F8F314F52419006420A8 /* HPStringData.m in Sources */,
 				2F11CFAC14F5FF4D00E6D941 /* HPBooleanData.m in Sources */,
+				2F2CC2C414F607A10036ADD2 /* HPArrayData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

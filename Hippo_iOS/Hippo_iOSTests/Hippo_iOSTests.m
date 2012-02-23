@@ -12,6 +12,7 @@
 #import "HPStringData.h"
 #import "HPNumberData.h"
 #import "HPBooleanData.h"
+#import "HPArrayData.h"
 
 
 @implementation Hippo_iOSTests
@@ -42,7 +43,15 @@
     
     HPBooleanData *booleanData = [[HPBooleanData alloc] initWithBooleanData:YES];
     NSLog(@"HPBooleanData: %@", booleanData);
-
+    
+    HPArrayData *arrayData = [[HPArrayData alloc] init];
+    [arrayData addData:stringData];
+    [arrayData addData:numberData];
+    [arrayData addData:booleanData];
+    
+    NSLog(@"HPArrayData: %@", arrayData);
+    
+    
 
     
     NSLog(@"##########  End test  ##########");

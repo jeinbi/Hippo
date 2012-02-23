@@ -23,16 +23,16 @@
 
 @required
 /**
- * Set JSON object to Hippo's data
+ * Set JSON object to Hippo's data.
  *
- * @param[in] object JSON object
+ * @param[in] object A JSON object.
  */
 - (void)setJSONObject:(id)object;
 
 /**
  * Get JSON object from Hippo's data
  *
- * @param JSON object
+ * @return A JSON object
  */
 - (id)JSONObject;
 

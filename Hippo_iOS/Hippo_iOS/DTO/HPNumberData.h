@@ -23,23 +23,23 @@
 @interface HPNumberData : NSObject <HPData>
 
 /**
- * The data for number
+ * The data for number.
  */
 @property (nonatomic, strong) NSNumber *numberData;
 
 
 /**
- * Initialize a object
+ * Initialize an object.
  *
- * @return object
+ * @return An object.
  */
 - (id)init;
 
 /**
- * initialize a object with a given value as NSNumber
+ * initialize an object with a given value as NSNumber
  *
- * @param[in] data The value for number
- * @return object
+ * @param[in] data The value for number.
+ * @return An object.
  */
 - (id)initWithNumberData:(NSNumber *)data;
 
