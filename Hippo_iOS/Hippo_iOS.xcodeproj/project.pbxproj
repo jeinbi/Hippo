@@ -14,7 +14,7 @@
 		2F13F8D514F5227F006420A8 /* libHippo_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F13F8BD14F5227F006420A8 /* libHippo_iOS.a */; };
 		2F13F8DB14F5227F006420A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F13F8D914F5227F006420A8 /* InfoPlist.strings */; };
 		2F13F8DE14F5227F006420A8 /* Hippo_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F13F8DD14F5227F006420A8 /* Hippo_iOSTests.m */; };
-		2F13F8E814F52412006420A8 /* Hippo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F13F8E714F52412006420A8 /* Hippo.h */; };
+		2F13F8E814F52412006420A8 /* Hippo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F13F8E714F52412006420A8 /* Hippo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F13F8EF14F52419006420A8 /* HPData.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F13F8EA14F52419006420A8 /* HPData.h */; };
 		2F13F8F014F52419006420A8 /* HPNumberData.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F13F8EB14F52419006420A8 /* HPNumberData.h */; };
 		2F13F8F114F52419006420A8 /* HPNumberData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F13F8EC14F52419006420A8 /* HPNumberData.m */; };
@@ -413,6 +413,7 @@
 				2F13F8E314F5227F006420A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F13F8E414F5227F006420A8 /* Build configuration list for PBXNativeTarget "Hippo_iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +422,7 @@
 				2F13F8E614F5227F006420A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
