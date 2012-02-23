@@ -1,14 +1,24 @@
-//
-//  HPData2.h
-//  Hippo
-//
-//  Created by 진복 이 on 12. 2. 22..
-//  Copyright (c) 2012년 __MyCompanyName__. All rights reserved.
-//
+/*
+ * File name : HPData.h
+ * Date      : February 21, 2012
+ * Author    : Jinbock Lee
+ * Comment   : Definition of the HPData protocol
+ *
+ * Modify date    :
+ * Modify author  : 
+ * Modify comment :
+ *
+ * Copyright (c) 2012 LoveToo. All rights reserved.
+ */
 
 #import <Foundation/Foundation.h>
 
 
+/**
+ * All Hippo's DTO is implemented by this protocol.
+ *
+ * @since 1.0.0
+ */
 @protocol HPData <NSObject>
 
 @required

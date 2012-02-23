@@ -23,7 +23,7 @@
     return [self initWithStringData:nil];
 }
 
-- (id)initWithStringData:(id)data {
+- (id)initWithStringData:(NSString *)data {
     self = [super init];
     
     if (self) {

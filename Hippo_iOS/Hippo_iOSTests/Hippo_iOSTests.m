@@ -10,6 +10,7 @@
 
 #import "HPData.h"
 #import "HPStringData.h"
+#import "HPNumberData.h"
 
 
 @implementation Hippo_iOSTests
@@ -33,37 +34,11 @@
     NSLog(@"########## Start test ##########");
     
     HPStringData *stringData = [[HPStringData alloc] initWithStringData:@"문자열 데이터"];
+    NSLog(@"HPStringData: %@", stringData);
     
-    [stringData setStringData:(id)[NSNull null]];
-    
-    //    NSLog(@"HPStringData: %@", stringData);
-    
-    //    HPNumberData *numberData = [[HPNumberData alloc] initWithData:[NSNumber numberWithDouble:1234.0]];
-    //    NSLog(@"HPNumberData: %@", numberData);
-    
-    
-    NSString *json = @"{\"key1\":\"value1\", \"key2\":true}";
-    NSData *data = [json dataUsingEncoding:NSUTF8StringEncoding];
-    
-    
-    id aaa = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];    
-    NSLog(@"%@", aaa);
-    NSLog(@"%@", [[aaa objectForKey:@"key2"] class]);
-    
-    BOOL b = YES;
-    
-    
-    
-    [aaa setObject:[NSNumber numberWithBool:1] forKey:@"key3"];
-    
-    NSData *bbb = [NSJSONSerialization dataWithJSONObject:aaa options:NSJSONWritingPrettyPrinted error:nil];
-    NSLog(@"%@", [[NSString alloc] initWithData:bbb encoding:NSUTF8StringEncoding]);
-    
-    NSNumber *number = [NSNumber numberWithInt:10];
-    NSString *str = (NSString *)number;
-    NSLog(@"AAA %@", [str class]);
-    
-    
+    HPNumberData *numberData = [[HPNumberData alloc] initWithNumberData:[NSNumber numberWithDouble:1234.672895723829]];
+    NSLog(@"HPNumberData: %@", numberData);
+
     
     NSLog(@"##########  End test  ##########");
 }

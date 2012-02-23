@@ -43,9 +43,7 @@
  */
 - (id)initWithStringData:(NSString *)data;
 
-
 - (void)setJSONObject:(id)object;
-
 - (id)JSONObject;
 
 - (NSString *)description;
