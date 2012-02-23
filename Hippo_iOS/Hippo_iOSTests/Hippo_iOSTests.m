@@ -11,6 +11,7 @@
 #import "HPData.h"
 #import "HPStringData.h"
 #import "HPNumberData.h"
+#import "HPBooleanData.h"
 
 
 @implementation Hippo_iOSTests
@@ -38,6 +39,10 @@
     
     HPNumberData *numberData = [[HPNumberData alloc] initWithNumberData:[NSNumber numberWithDouble:1234.672895723829]];
     NSLog(@"HPNumberData: %@", numberData);
+    
+    HPBooleanData *booleanData = [[HPBooleanData alloc] initWithBooleanData:YES];
+    NSLog(@"HPBooleanData: %@", booleanData);
+
 
     
     NSLog(@"##########  End test  ##########");
